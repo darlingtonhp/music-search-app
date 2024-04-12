@@ -7,7 +7,7 @@
 
 
 The task was to create a Music Search System using Laravel and React.
-The project owner uses Laravel 11 and harnessed the power of initial to design a full stack application using Laravel as the backend and reactjs as frontend of choice. This project did not encorporate any other databases except SQLite as required by the employer but will take this as a starting point to learn Laravel and React. The code will most propably not execute coz I broke something to do with Laravel file classes.
+The project owner uses Laravel 11 and harnessed the power of initial to design a full stack application using Laravel as the backend and reactjs as frontend of choice. This project did not encorporate any other databases except SQLite as required by the employer but will take this as a starting point to learn Laravel and React. The code will most propably not execute coz I broke something to do with Laravel file classes. I used the socialite package to intergrate Laravel with Google Auth. I also used the barryvanveen /lastfm package to fetch data from LastFm. More information about the barryvanveen/lastfm package at https://github.com/barryvanveen/lastfm.
 
 ## Features
 1. Registration & Login using Laravel Breezer and Inertia
@@ -30,7 +30,9 @@ The project owner uses Laravel 11 and harnessed the power of initial to design a
 - 9. Start Artisan server - `php artisan serve`
 - 10. Configure Google cloud Auth Credentials and use your own api keys.
 - 11. Register for LastApi api keys.
-- 12. Update your config/services.php and .env file with your own api keys and secret share codes
+- 12. Update your config/services.php and .env file with your own api keys and secret share codes.
+- 13. composer require barryvanveen/lastfm
+
 
 
 
